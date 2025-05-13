@@ -1,0 +1,38 @@
+/* Base variables: light mode */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --button-bg: #eeeeee;
+  --button-text: #000000;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+  --bg-color: #1e1e1e;
+  --text-color: #f1f1f1;
+  --button-bg: #333333;
+  --button-text: #ffffff;
+}
+
+/* Apply the CSS variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Toggle button styling */
+#theme-toggle {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
