@@ -11,16 +11,13 @@ Simple toggle between light and dark themes with smooth transitions and localSto
 - HTML, CSS (CSS variables)
 - JavaScript (DOM, localStorage)
 
-## Screenshot
-![Theme Toggle Screenshot](screenshots/theme-toggle.png)
-
-## Setup
-1. Clone the repo
-2. Open `index.html` in your browser
-
 ## Project Structure
 light-dark-toggle/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+
+Author
+Created by Sheila Demonteverde  
+Junior Software Engineering Student at Penn State World Campus
